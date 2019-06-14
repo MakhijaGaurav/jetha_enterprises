@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: #353535;
+}
+.image-cover{
+    background-color: black;
+    height: 100%;
+    background-image: url('../images/trophy-dark.jpg');
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(7px);
+}
+.cover-content{
+    width: 100%;
+    position: absolute;
+    height: auto;
+    color: aqua;
+    top: 30%;
+    
+}
+.cover-heading{
+    text-align: center;
+   
+}
+/*MOBILES*/
+@media(max-width:767px){
+    .jetha{
+        font-size:65px;
+        
+    }
+    
+}
+.cover-heading h3{
+    color: white;
+    font-size: 75px;
+    padding: 25px;
+    font-family: 'Righteous', cursive;
+}
+.cover-quote{
+    text-align: center;
+}
+.cover-quote p{
+    color: white;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 1px;
+}
+@media(max-width:567px){
+    
+    .cover-heading{
+
+        font-size:400px;
+    }
+    
+}
+nav>span{
+    color: gold;
+}
+.contact-label{
+    padding: 10px;
+    margin-right:50px;
+    margin-bottom: 30px;
+}
+.label-value{
+    margin: 25px;
+    
+}
+.contact{
+    margin-top: 50px;
+}
+#services-section{
+    background-color:#f0f0f0;
+    margin: 0 0px 50px;
+    padding: 50px 30px;
+}
+.service-item{
+    display: inline;
+    font-size: 15px;
+    padding: 25px;
+    margin: 25px;
+}
+.section-heading{
+    text-align: center;
+}
+.section-heading>h3{
+    color: orange;
+}
+.service-item-icon i{
+    display: inline-block;
+    float: left;
+    width: 75px;
+    height: 75px;
+    padding: 10px;
+}
+.service-item-icon>i{
+    color: #f49542;
+}
+
+.service-item-title h3{
+    font-size: 20px;
+    display: inline-block;
+}
+.service-item-desc p{
+    margin: 0px;
+    color: 	#707070;
+}
+#reach-us{
+    margin: 50px 0px 0;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+.section-heading-underline{
+    width: 100px;
+    height: 3px;
+    background: black;
+    margin:0 auto 30px;
+}
+.social{
+    display: inline;
+    padding: 35px;
+    margin: 0 2px;
+}
+.map-div{
+    margin-top: 50px;
+    width: 100%;
+}
+.map-container{
+    padding: 0;
+}
+.footer{
+    padding: 25px;
+    background-image: url('../images/background-texture.jpg');
+}
+.social-links span{
+    padding: 0 40px;
+    
+}    
+.social-icon-a{
+    color: white;
+}
+.powered-by{
+    color: white;
+    text-align: center;
+    
+}
+.powered-by>span{
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 15px;
+}   

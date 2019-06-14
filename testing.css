@@ -1,0 +1,62 @@
+*{
+    margin:0px;
+}
+.image-cover{
+    background-color: black;
+    height: 100%;
+    background-image: url('images/trophy-dark.jpg');
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    filter: blur(7px);
+}
+.cover-content{
+    width: 100%;
+    position: absolute;
+    height: auto;
+    color: aqua;
+    top: 30%;
+    
+}
+.cover-heading{
+    text-align: center;
+   
+}
+/*MOBILES*/
+@media(max-width:767px){
+    .jetha{
+        font-size:65px;
+        
+    }
+    
+}
+.cover-heading h3{
+    color: white;
+    font-size: 75px;
+    padding: 25px;
+    font-family: 'Righteous', cursive;
+}
+.cover-quote{
+    text-align: center;
+}
+.cover-quote p{
+    color: white;
+    font-size: 40px;
+    font-family: 'Lobster', cursive;
+    letter-spacing: 1px;
+}
+@media(max-width:567px){
+    
+    .cover-heading{
+
+        font-size:400px;
+    }
+    
+}
+
+
+
+
