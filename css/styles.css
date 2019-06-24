@@ -5,6 +5,17 @@
 body{
     color: #353535;
 }
+/********LOADER**********/
+.loader{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    background-color: aliceblue;
+}
+.loader>img{
+    margin: 50%
+}
+/***************COVER**************/
 .image-cover{
     background-color: black;
     height: 100%;
@@ -60,9 +71,30 @@ body{
     }
     
 }
-nav>span{
-    color: gold;
+
+/**********ABOUT US***********/
+#about-us-section{
+    padding: 25px;
 }
+.about-us-section-text>p{
+    text-align: center;
+    color: #404040;
+    font-size: 18px;
+}
+/*****VISION-SECTION*****/
+#vision-section{
+    margin: 75px 0;
+}
+.vision-section-heading>p{
+    text-align: center;
+    font-size: 18px;
+    color: #404040;
+}
+
+/************GALLERY
+
+/*********CONTACT US*********/
+
 .contact-label{
     padding: 10px;
     margin-right:50px;
@@ -75,14 +107,18 @@ nav>span{
 .contact{
     margin-top: 50px;
 }
+#about-us-section{
+    margin: 50px 0;
+}
 #services-section{
     background-color:#f0f0f0;
+    background-image: url('../images/services-texture.jpg');
     margin: 0 0px 50px;
     padding: 50px 30px;
 }
 .service-item{
     display: inline;
-    font-size: 15px;
+    font-size: 2.3em;
     padding: 25px;
     margin: 25px;
 }
@@ -90,7 +126,7 @@ nav>span{
     text-align: center;
 }
 .section-heading>h3{
-    color: orange;
+    color: #f49542;
 }
 .service-item-icon i{
     display: inline-block;
@@ -104,7 +140,7 @@ nav>span{
 }
 
 .service-item-title h3{
-    font-size: 20px;
+    font-size: 2.3em;
     display: inline-block;
 }
 .service-item-desc p{
@@ -139,7 +175,7 @@ nav>span{
     background-image: url('../images/background-texture.jpg');
 }
 .social-links span{
-    padding: 0 40px;
+    padding: 5% 5%;
     
 }    
 .social-icon-a{

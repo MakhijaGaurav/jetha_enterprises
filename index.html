@@ -11,34 +11,47 @@
     <!--FONT AWESOME CSS-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="vendors/fontawesome/css/fontawesome.css">
+    <!--ANIMATE CSS-->
+    <link rel="stylesheet" href="vendors/wow/animate.css">
     <!-- CAROUSEL-STYLES-->
+    <link rel="stylesheet" href="vendors/carousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/carousel/dist/assets/owl.theme.default.min.css">
     <!--CUSTOM STYLES-->
     <link rel="stylesheet" href="css/styles.css">
 
 </head>
 
 <body>
+    <!--LOADER-DIV-->
+    <!--
+   <div class="loader">
+       <img src="images/loader.gif" height="100px" width="125px">
+   </div>
+-->
     <!--   COVER SECTION-->
-    <section class="cover">
+    <section id="cover">
         <div class="image-cover"></div>
         <div class="cover-content">
-            <div class="cover-heading">
+            <div class="cover-heading wow flipInX">
                 <h3>
                     <div class="jetha">JETHA ENTERPRISES&reg;</div>
                 </h3>
             </div>
-            <div class="cover-quote">
+            <div class="cover-quote wow zoomIn" data-wow-delay="0.5s">
                 <p>&quot;Serving you best is what we believe in&quot;</p>
             </div>
         </div>
     </section>
     <!--END OF COVER SECTION -->
     <!--ABOUT US-->
-    <section id="about-us-section">
+    <section id="about-us-section" class="wow fadeInUp" data-wow-delay="0.5s">
         <div class="container">
             <div class="section-heading">
                 <h3>ABOUT US</h3>
                 <div class="section-heading-underline"></div>
+            </div>
+            <div class="about-us-section-text">
+                <p>Incepted in the year 1964, Jetha Enterprises is pioneer in the field of election materials and services. The firm was established by our beloved <strong>Mr. Mohandas Kimatrai Budhwani</strong> in 1964 and is continued by his son Mr Jethanand Mohandas Budhwani. Our organization is engaged in manufacturing and trading of wide range of and products and services which include Election Accessories, Trophies, Flags, Badges, Scalfs, Rubber Stamps and much more...</p>
             </div>
         </div>
 
@@ -48,12 +61,12 @@
     <section id="services-section">
         <div class="container">
             <div class="section-heading">
-                <h3>SERVICES</h3>
+                <h3>WHAT WE OFFER</h3>
                 <div class="section-heading-underline"></div>
             </div>
             <div class="row">
                 <!--SERVICE-->
-                <div class="col-md-4 col-sm-4 col-lg-4">
+                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
                     <div class="service-item">
                         <div class="service-item-icon">
                             <i class="fa fa-trophy fa-3x" aria-hidden="true"></i>
@@ -69,7 +82,7 @@
                     </div>
                 </div>
                 <!--SERVICE-->
-                <div class="col-md-4 col-sm-4 col-lg-4">
+                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
                     <div class="service-item">
                         <div class="service-item-icon">
                             <i class="fa fa-flag fa-3x" aria-hidden="true"></i>
@@ -86,7 +99,7 @@
                 </div>
 
                 <!--SERVICE-->
-                <div class="col-md-4 col-sm-4 col-lg-4">
+                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
                     <div class="service-item">
                         <div class="service-item-icon">
                             <i class="fa fa-bars fa-3x" aria-hidden="true"></i>
@@ -102,10 +115,12 @@
                     </div>
                 </div>
 
+
                 <!--SERVICE-->
-                <div class="col-md-4">
+
+                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
                     <div class="service-item">
-                        <div class="service-item-icon">
+                        <div class="service-item-icon ">
                             <i class="fa fa-address-card-o fa-3x" aria-hidden="true"></i>
                         </div>
                         <div class="service-item-title">
@@ -120,7 +135,7 @@
                 </div>
 
                 <!--SERVICE-->
-                <div class="col-md-4 col-sm-4 col-lg-4">
+                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
                     <div class="service-item">
                         <div class="service-item-icon">
                             <i class="fa fa-eject fa-3x" aria-hidden="true"></i>
@@ -137,7 +152,8 @@
                 </div>
 
                 <!--SERVICE-->
-                <div class="col-md-4 col-sm-4 col-lg-4">
+
+                <div class="col-lg-4 col-md-12 col-sm-12 col-xs-12">
                     <div class="service-item">
                         <div class="service-item-icon">
                             <i class="fa fa-print fa-3x" aria-hidden="true"></i>
@@ -156,7 +172,55 @@
         </div>
     </section>
     <!-- END OF SERVICES SECTION
-<!--GALLERY SECTION-->
+
+    <!--VISION SECTION-->
+    <section id="vision-section" class="wow fadeInUp" data-wow-delay="0.5s">
+        <div class="container">
+            <div class="section-heading">
+                <h3>WHAT WE BELIEVE IN</h3>
+                <div class="section-heading-underline"></div>
+            </div>
+            <div class="vision-section-heading">
+                <p>Vision of our Founder <strong>Mr MK Budhwani</strong> was to serve the best in Every Domain we enter, Be it Marketing, Manufacturing, Service, Corporate Gifting. We will continue to do so and try to keep his mark and his greatness Alive. We believe in Carving a Niche into our Marketing and Corporate Gifting business with our Client-friendly approach and transparent business practices. We are blessed with great clients well from 1964, we serve them till today and we promise to serve them in future too.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!--END OF VISION SECTION-->
+    <!--GALLERY SECTION-->
+    <section id="gallery-section">
+        <div class="container">
+            <div class="section-heading">
+                <h3>GALLERY</h3>
+                <div class="section-heading-underline"></div>
+            </div>
+            <div class="carousel-div">
+                <div class="owl-carousel">
+                    <div class="item">
+                        <img src="images/trophy3.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/trophy3.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/trophy3.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/trophy3.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/trophy3.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/trophy3.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/trophy3.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
     <!--END >OF GALLERY-->
     <!--   CONTACT US SECTION-->
     <section id="reach-us">
@@ -166,48 +230,48 @@
                 <div class="section-heading-underline"></div>
             </div>
             <div class="row">
-                <div class="col-md-6">
-                   <div class="address-div">
-                    <div class="contact address">
-                        <i class="fa fa-map-marker fa-lg"></i>
-                        <span class="contact-label">ADDRESS:</span>
-                        <span class="contact-label-value">Shop No 2,Near Radha Swami Satsang Hall,OT Road, Ulhasnagar - 3, Mumbai, Maharashtra 421003 </span>
-                    </div>
-                    <div class="contact phone">
-                        <i class="fa fa-phone fa-lg"></i>
-                        <span class="contact-label">PHONE</span>
-                        <span class="label-value">0251-2712186&nbsp;/&nbsp;7303131314</span>
-                    </div>
-                    <div class="contact email">
-                        <i class="fa fa-envelope fa-lg"></i><span class="contact-label">EMAIL</span>
-                        <span class="label-value">jetha_enterprises@yahoo.com</span>
-                    </div>
-                    <div class="contact hours">
-                        <i class="fa fa-clock-o fa-lg"></i><span class="contact-label">HOURS</span>
-                        <span class="label-value">Monday-Sunday 10:00am-9:00pm</span>
+                <div class="col-lg-6 col-xs-12">
+                    <div class="address-div">
+                        <div class="contact address">
+                            <i class="fa fa-map-marker fa-lg"></i>
+                            <span class="contact-label">ADDRESS:</span>
+                            <span class="contact-label-value">Shop No 2,Near Radha Swami Satsang Hall,OT Road, Ulhasnagar - 3, Mumbai, Maharashtra 421003 </span>
+                        </div>
+                        <div class="contact phone">
+                            <i class="fa fa-phone fa-lg"></i>
+                            <span class="contact-label">PHONE</span>
+                            <span class="label-value">0251-2712186&nbsp;/&nbsp;7303131314</span>
+                        </div>
+                        <div class="contact email">
+                            <i class="fa fa-envelope fa-lg"></i><span class="contact-label">EMAIL</span>
+                            <span class="label-value">jetha_enterprises@yahoo.com</span>
+                        </div>
+                        <div class="contact hours">
+                            <i class="fa fa-clock-o fa-lg"></i><span class="contact-label">HOURS</span>
+                            <span class="label-value">Monday-Sunday 10:00am-9:00pm</span>
+                        </div>
                     </div>
                 </div>
-                </div>
-                <div class="col-md-6">
-                    <form method="post" class="enquiry-form">
+                <div class="col-lg-6 col-xs-12">
+                    <form method="POST" class="enquiry-form" action="form_action/message.php">
                         <div class="form-group">
                             <label for="name">Name</label>
-                            <input type="text" class="form-control" id="name" placeholder="Please Enter Your Name*" name="name" required>
+                            <input type="text" class="form-control input-lg input-xs input-lg input-xs" id="name" na placeholder="Please Enter Your Name*" name="name" required>
                         </div>
                         <div class="form-group">
                             <label for="email">Email</label>
-                            <input type="email" class="form-control" id="email" placeholder="Please Enter Your Email*" name="email" required>
+                            <input type="email" class="form-control input-lg input-xs" id="email" placeholder="Please Enter Your Email*" name="email" required>
                         </div>
                         <div class="form-group">
                             <label for="contact">Contact Number</label>
-                            <input type="text" class="form-control" id="contact" placeholder="Please Enter Your Contact Number*" name="contact" required>
+                            <input type="text" class="form-control input-lg input-xs" id="contact" placeholder="Please Enter Your Contact Number*" name="contact-number" required>
                         </div>
                         <div class="form-group">
                             <label for="message">Message</label>
-                            <textarea class="form-control" id="message" placeholder="Leave a Message!" name="message" required></textarea>
+                            <textarea class="form-control input-lg input-xs" id="message" placeholder="Leave a Message!" name="message" required></textarea>
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="btn btn-warning">Send Message!</button>
+                            <button type="submit" class="btn btn-warning" name="send">Send Message!</button>
                         </div>
                     </form>
                 </div>
@@ -215,6 +279,7 @@
         </div>
     </section>
     <!--   END OF CONTACT US SECTION-->
+    <!--MAP SECTION-->
     <section id="map-section">
         <div class="container-fluid map-container">
             <div class="section-heading">
@@ -226,32 +291,33 @@
             </div>
         </div>
     </section>
+    <!-- END OF MAP SECTION -->
     <!--POWERED BY-->
     <section class="powered-by">
         <div class="footer">
-         <div class="container-fluid">
-          <div class="row">
-           <div class="col-md-4">
-            <div class="copyright">
-                <span> Copyright 2019&reg; JETHA ENTERPRISES All Rights Reserved.</span>
-            </div>
-            </div>
-            <div class="col-md-4">
-            <div class="social-links">
-                <span><a href="" class="social-icon-a"><i class="fa fa-facebook fa-2x"></i></a></span>
-                <span><a href="" class="social-icon-a"><i class="fa fa-instagram fa-2x"></i></a></span>
-                <span><a href="" class="social-icon-a"><i class="fa fa-whatsapp fa-2x"></i></a></span>
-                <span><a href="" class="social-icon-a"><i class="fa fa-phone fa-2x"></i></a></span>
-            </div>
-            </div>
-            <div class="col-md-4">
-            <div class="powered-by">
-               <span>Powered By</span>
-                <span><a href="https://www.instagram.com/theuseless.co">&nbsp;&nbsp;<strong>Gaurav Makhija</strong></a></span>
-                <span><a href="https://api.whatsapp.com/send?phone=8329336608"><strong>+91-8329336608</strong></a></span>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="copyright">
+                            <span> Copyright 2019&reg; JETHA ENTERPRISES All Rights Reserved.</span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="social-links">
+                            <span><a href="" class="social-icon-a"><i class="fa fa-facebook fa-2x"></i></a></span>
+                            <span><a href="" class="social-icon-a"><i class="fa fa-instagram fa-2x"></i></a></span>
+                            <span><a href="" class="social-icon-a"><i class="fa fa-whatsapp fa-2x"></i></a></span>
+                            <span><a href="" class="social-icon-a"><i class="fa fa-phone fa-2x"></i></a></span>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="powered-by">
+                            <span>Powered By</span>
+                            <span><a href="https://www.instagram.com/theuseless.co">&nbsp;&nbsp;<strong>Gaurav Makhija</strong></a></span>
+                            <span><a href="https://api.whatsapp.com/send?phone=8329336608"><strong>+91-8329336608</strong></a></span>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            </div>
             </div>
         </div>
     </section>
@@ -261,7 +327,10 @@
 <script src="vendors/jquery/jquery.min.js"></script>
 <!--Bootstrap JS-->
 <script src="vendors/bootstrap/js/bootstrap.min.js"></script>
+<!--WOW JS-->
+<script src="vendors/wow/WOW-master/dist/wow.min.js"></script>
 <!--OWL CAROUSEL-->
+<script src="vendors/carousel/dist/owl.carousel.min.js"></script>
 <!--CUSTOM SCRIPTS-->
 <script src="js/scripts.js"></script>
 
